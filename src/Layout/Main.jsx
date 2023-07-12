@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../components/Shared/Navbar/Navbar';
 
 const Main = () => {
     return (
         <div>
-            <h1>aircnc project</h1>
+            <Navbar></Navbar>
         </div>
     );
 };
